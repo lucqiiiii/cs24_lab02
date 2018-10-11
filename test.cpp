@@ -5,7 +5,7 @@ using namespace std;
 void f(){
   clock_t begin = clock();
   int sum = 0;
-  int n = 1000;
+  int n = 10000;
   for (int i = 0; i < n; ++i){
     for (int j = 0; j < n; ++j){
       ++sum;

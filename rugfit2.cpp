@@ -67,7 +67,7 @@ int main() {
     const Rectangle floor(width, length); // note: const object
 
     // RESET Rectangle NAMED "rug" FOR SIZES INPUT BY USER
-    cout  << "Enter width and length of rug: ";
+    cout  << "enter width and length of rug: ";
     cin >> width >> length;
     rug.setWidth(width);
     rug.setLength(length);
